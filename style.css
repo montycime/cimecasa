@@ -1,7 +1,12 @@
 /* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
-   
+/*text-decoration: inherit;
+text-decoration: initial;
+text-decoration: revert;
+text-decoration: revert-layer;
+text-decoration: unset; */
+
 @font-face {
     font-family: 'monty_font_2regular';
     src: url('montyfont2-regular-webfont.woff2') format('woff2'),
@@ -44,10 +49,6 @@ body {
   div.example {
     display: none;
 }
-
-}
-.plain {
-  text-decoration: none;
 }
 .tab {
     display: inline-block;
