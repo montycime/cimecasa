@@ -54,3 +54,6 @@ body {
     display: inline-block;
     margin-left: 40px;
 }
+.plain {
+  text-decoration: none;
+}
