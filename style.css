@@ -44,8 +44,11 @@ body {
   div.example {
     display: none;
 }
-}
 
+}
+.plain {
+  text-decoration: none;
+}
 .tab {
     display: inline-block;
     margin-left: 40px;
