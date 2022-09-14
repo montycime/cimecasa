@@ -1,0 +1,52 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+   
+@font-face {
+    font-family: 'monty_font_2regular';
+    src: url('montyfont2-regular-webfont.woff2') format('woff2'),
+         url('montyfont2-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+  
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  background-image: url("https://cime.casa/Logo.png");
+  background-color: gray ;
+  color: brown;
+  font-family: 'monty_font_2regular';
+  min-height: 100vh; 
+}
+ 
+ @media (pointer: coarse), (hover: none) {
+      [title] {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+      }
+      [title]:focus::after {
+        content: attr(title);
+        position: absolute;
+        top: 90%;
+        color: #000;
+        background-color: #fff;
+        border: 1px solid;
+        width: fit-content;
+        padding: 3px;
+      }
+    }
+@media screen and (orientation: landscape) {
+  div.example {
+    display: none;
+}
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
