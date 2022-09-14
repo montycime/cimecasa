@@ -16,7 +16,7 @@ body {
   margin-left: 100px;
   margin-top: 0px;
   margin-bottom: 100px;
-  background-image: url("https://cime.casa/Logo.png");
+  background-image: url(/Logo.png);
   background-color: gray ;
   color: brown;
   font-family: 'monty_font_2regular';
